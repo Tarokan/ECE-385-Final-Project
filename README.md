@@ -3,3 +3,6 @@ A Pokemon-style RPG built for the Altera FPGA constructed over 4-weeks with part
 
 ### Features
 + WASD Keyboard Control over the EZ-OTG USB Controller
+
+
+README is WIP!  Please check back later. 
