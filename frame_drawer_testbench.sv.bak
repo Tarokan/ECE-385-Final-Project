@@ -1,0 +1,45 @@
+// TODO
+
+module frame_drawer_testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+logic           Clk;
+logic           Reset;
+
+always begin : CLOCK_GENERATION
+
+#1 Clk = ~Clk;
+
+end
+
+initial begin : CLOCK_INITIALIZATION
+	Clk = 0;
+end
+
+eight_bit_Multiplier_toplevel tp(.*);
+
+initial begin: TEST_VECTORS
+Reset = 0;
+ClearA_LoadB = 1;
+Run = 1;
+//SW = 8'b00000111;
+SW = 8'b11111101;
+
+//test case 1
+#2 Reset = 1;
+
+#2 ClearA_LoadB = 0;
+#2	ClearA_LoadB = 1;
+	
+#2	SW = 8'b11000101;
+//#2 SW = 8'b00000011;
+	
+#2 Run = 0;
+
+#22;
+	
+end
+endmodule

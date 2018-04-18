@@ -1,0 +1,19 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\Lab8_provided\vga_clk.qsys --synthesis=VERILOG --output-directory=E:\Lab8_provided\vga_clk\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Lab8_provided/vga_clk.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 15.0]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: vga_clk.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Info: vga_clk: Generating vga_clk "vga_clk" for QUARTUS_SYNTH
+Info: altpll_0: "vga_clk" instantiated altpll "altpll_0"
+Info: rst_controller: "vga_clk" instantiated altera_reset_controller "rst_controller"
+Info: vga_clk: Done "vga_clk" with 3 modules, 5 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

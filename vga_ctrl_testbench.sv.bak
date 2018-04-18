@@ -1,0 +1,31 @@
+module testsystem_testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+logic        CLOCK_50;
+logic 		 Reset_h;
+
+			
+always begin : CLOCK_GENERATION
+
+#1 CLOCK_50 = ~CLOCK_50;
+
+end
+
+initial begin : CLOCK_INITIALIZATION
+	CLOCK_50 = 0;
+end
+
+initial begin: TEST_VECTORS
+KEY = 4'b1111;
+#10
+KEY = 4'b1110;
+#10
+KEY = 4'b1111;
+
+//SRAM_DQ = 16'b0;
+
+end
+endmodule

@@ -1,0 +1,19 @@
+#ifndef movement_h
+#define movement_h
+
+#define uint unsigned int
+
+void setCoordinates();
+
+void moveLeft();
+void moveDown();
+void moveRight();
+void moveUp();
+
+int isGrass();
+
+void keyStroke(int keycode);
+
+void unsetRedraw();
+
+#endif

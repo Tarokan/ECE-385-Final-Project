@@ -1,0 +1,48 @@
+module testsystem_testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+logic        CLOCK_50;
+logic [3:0]  KEY;          //bit 0 is set up as Reset
+
+logic [7:0]  VGA_R,        //VGA Red
+             VGA_G,        //VGA Green
+             VGA_B;        //VGA Blue
+logic        VGA_CLK,      //VGA Clock
+             VGA_SYNC_N,   //VGA Sync signal
+             VGA_BLANK_N,  //VGA Blank signal
+             VGA_VS,       //VGA virtical sync signal
+             VGA_HS;       //VGA horizontal sync signal
+
+
+logic [19:0] SRAM_ADDR;	// SRAM Address 20 Bits
+wire [15:0] SRAM_DQ;			// SRAM Data 16 Bits
+logic 	SRAM_CE_N,			// SRAM Chip Enable
+			SRAM_LB_N,			// SRAM Lower Byte Enable (?)
+			SRAM_OE_N,			// SRAM Output Enable(?)
+			SRAM_UB_N,			// SRAM Upper Byte Enable (?)
+			SRAM_WE_N;			// SRAM Write Enable (?)
+			
+testsysten testsystem_instance(.*);
+			
+always begin : CLOCK_GENERATION
+
+#1 CLOCK_50 = ~CLOCK_50;
+
+end
+
+initial begin : CLOCK_INITIALIZATION
+	CLOCK_50 = 0;
+end
+
+initial begin: TEST_VECTORS
+KEY = 4'b1110;
+#10
+KEY = 4'b1111;
+
+//SRAM_DQ = 16'b0;
+
+end
+endmodule

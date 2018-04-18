@@ -1,0 +1,558 @@
+16'd0:
+begin
+	VGA_R = 8'hF0;
+	VGA_G = 8'h00;
+	VGA_B = 8'hFF;
+end
+16'd1:
+begin
+	VGA_R = 8'hF4;
+	VGA_G = 8'hF1;
+	VGA_B = 8'hED;
+end
+16'd2:
+begin
+	VGA_R = 8'hA6;
+	VGA_G = 8'h9D;
+	VGA_B = 8'h94;
+end
+16'd3:
+begin
+	VGA_R = 8'hB6;
+	VGA_G = 8'h3B;
+	VGA_B = 8'h39;
+end
+16'd4:
+begin
+	VGA_R = 8'hD4;
+	VGA_G = 8'h51;
+	VGA_B = 8'h42;
+end
+16'd5:
+begin
+	VGA_R = 8'hDF;
+	VGA_G = 8'h67;
+	VGA_B = 8'h5F;
+end
+16'd6:
+begin
+	VGA_R = 8'hEA;
+	VGA_G = 8'h7E;
+	VGA_B = 8'h78;
+end
+16'd7:
+begin
+	VGA_R = 8'h68;
+	VGA_G = 8'h55;
+	VGA_B = 8'h4A;
+end
+16'd8:
+begin
+	VGA_R = 8'hFD;
+	VGA_G = 8'hD1;
+	VGA_B = 8'hC1;
+end
+16'd9:
+begin
+	VGA_R = 8'h7D;
+	VGA_G = 8'h5D;
+	VGA_B = 8'h42;
+end
+16'd10:
+begin
+	VGA_R = 8'h8C;
+	VGA_G = 8'h68;
+	VGA_B = 8'h4A;
+end
+16'd11:
+begin
+	VGA_R = 8'hA3;
+	VGA_G = 8'h78;
+	VGA_B = 8'h49;
+end
+16'd12:
+begin
+	VGA_R = 8'h8A;
+	VGA_G = 8'h5C;
+	VGA_B = 8'h2F;
+end
+16'd13:
+begin
+	VGA_R = 8'hB9;
+	VGA_G = 8'h99;
+	VGA_B = 8'h6F;
+end
+16'd14:
+begin
+	VGA_R = 8'hE2;
+	VGA_G = 8'hDF;
+	VGA_B = 8'hDB;
+end
+16'd15:
+begin
+	VGA_R = 8'hBF;
+	VGA_G = 8'h90;
+	VGA_B = 8'h5E;
+end
+16'd16:
+begin
+	VGA_R = 8'hBE;
+	VGA_G = 8'h78;
+	VGA_B = 8'h16;
+end
+16'd17:
+begin
+	VGA_R = 8'hDB;
+	VGA_G = 8'hAE;
+	VGA_B = 8'h78;
+end
+16'd18:
+begin
+	VGA_R = 8'hCF;
+	VGA_G = 8'h74;
+	VGA_B = 8'h00;
+end
+16'd19:
+begin
+	VGA_R = 8'hF5;
+	VGA_G = 8'hAE;
+	VGA_B = 8'h44;
+end
+16'd20:
+begin
+	VGA_R = 8'hFA;
+	VGA_G = 8'hBE;
+	VGA_B = 8'h66;
+end
+16'd21:
+begin
+	VGA_R = 8'h40;
+	VGA_G = 8'h38;
+	VGA_B = 8'h28;
+end
+16'd22:
+begin
+	VGA_R = 8'h4F;
+	VGA_G = 8'h46;
+	VGA_B = 8'h2B;
+end
+16'd23:
+begin
+	VGA_R = 8'h48;
+	VGA_G = 8'h3C;
+	VGA_B = 8'h1E;
+end
+16'd24:
+begin
+	VGA_R = 8'h68;
+	VGA_G = 8'h54;
+	VGA_B = 8'h31;
+end
+16'd25:
+begin
+	VGA_R = 8'h8B;
+	VGA_G = 8'h66;
+	VGA_B = 8'h2C;
+end
+16'd26:
+begin
+	VGA_R = 8'h97;
+	VGA_G = 8'h5E;
+	VGA_B = 8'h06;
+end
+16'd27:
+begin
+	VGA_R = 8'h76;
+	VGA_G = 8'h67;
+	VGA_B = 8'h2F;
+end
+16'd28:
+begin
+	VGA_R = 8'h99;
+	VGA_G = 8'h89;
+	VGA_B = 8'h50;
+end
+16'd29:
+begin
+	VGA_R = 8'hA5;
+	VGA_G = 8'h89;
+	VGA_B = 8'h58;
+end
+16'd30:
+begin
+	VGA_R = 8'hE2;
+	VGA_G = 8'h99;
+	VGA_B = 8'h24;
+end
+16'd31:
+begin
+	VGA_R = 8'hE3;
+	VGA_G = 8'hCB;
+	VGA_B = 8'h8B;
+end
+16'd32:
+begin
+	VGA_R = 8'hE5;
+	VGA_G = 8'hD3;
+	VGA_B = 8'h88;
+end
+16'd33:
+begin
+	VGA_R = 8'hEB;
+	VGA_G = 8'hDB;
+	VGA_B = 8'h97;
+end
+16'd34:
+begin
+	VGA_R = 8'hE1;
+	VGA_G = 8'h9C;
+	VGA_B = 8'h00;
+end
+16'd35:
+begin
+	VGA_R = 8'h70;
+	VGA_G = 8'h6E;
+	VGA_B = 8'h57;
+end
+16'd36:
+begin
+	VGA_R = 8'hED;
+	VGA_G = 8'hE0;
+	VGA_B = 8'hA8;
+end
+16'd37:
+begin
+	VGA_R = 8'hFC;
+	VGA_G = 8'hC1;
+	VGA_B = 8'h12;
+end
+16'd38:
+begin
+	VGA_R = 8'hF2;
+	VGA_G = 8'hD8;
+	VGA_B = 8'h86;
+end
+16'd39:
+begin
+	VGA_R = 8'h89;
+	VGA_G = 8'h88;
+	VGA_B = 8'h52;
+end
+16'd40:
+begin
+	VGA_R = 8'h9E;
+	VGA_G = 8'h9C;
+	VGA_B = 8'h7B;
+end
+16'd41:
+begin
+	VGA_R = 8'hEC;
+	VGA_G = 8'hE9;
+	VGA_B = 8'h80;
+end
+16'd42:
+begin
+	VGA_R = 8'hF5;
+	VGA_G = 8'hE0;
+	VGA_B = 8'h67;
+end
+16'd43:
+begin
+	VGA_R = 8'h2C;
+	VGA_G = 8'h2E;
+	VGA_B = 8'h11;
+end
+16'd44:
+begin
+	VGA_R = 8'hB7;
+	VGA_G = 8'hB6;
+	VGA_B = 8'hA6;
+end
+16'd45:
+begin
+	VGA_R = 8'hCA;
+	VGA_G = 8'hC8;
+	VGA_B = 8'hAC;
+end
+16'd46:
+begin
+	VGA_R = 8'hDC;
+	VGA_G = 8'hD9;
+	VGA_B = 8'hB1;
+end
+16'd47:
+begin
+	VGA_R = 8'h42;
+	VGA_G = 8'h47;
+	VGA_B = 8'h2A;
+end
+16'd48:
+begin
+	VGA_R = 8'hA1;
+	VGA_G = 8'hB0;
+	VGA_B = 8'h6A;
+end
+16'd49:
+begin
+	VGA_R = 8'hA6;
+	VGA_G = 8'hD6;
+	VGA_B = 8'h74;
+end
+16'd50:
+begin
+	VGA_R = 8'hC9;
+	VGA_G = 8'hE2;
+	VGA_B = 8'h99;
+end
+16'd51:
+begin
+	VGA_R = 8'h64;
+	VGA_G = 8'h7F;
+	VGA_B = 8'h57;
+end
+16'd52:
+begin
+	VGA_R = 8'h71;
+	VGA_G = 8'hB4;
+	VGA_B = 8'h51;
+end
+16'd53:
+begin
+	VGA_R = 8'h7F;
+	VGA_G = 8'hB6;
+	VGA_B = 8'h67;
+end
+16'd54:
+begin
+	VGA_R = 8'h91;
+	VGA_G = 8'hC3;
+	VGA_B = 8'h66;
+end
+16'd55:
+begin
+	VGA_R = 8'h7B;
+	VGA_G = 8'hB9;
+	VGA_B = 8'h65;
+end
+16'd56:
+begin
+	VGA_R = 8'hA0;
+	VGA_G = 8'hCD;
+	VGA_B = 8'h81;
+end
+16'd57:
+begin
+	VGA_R = 8'h99;
+	VGA_G = 8'hDC;
+	VGA_B = 8'h83;
+end
+16'd58:
+begin
+	VGA_R = 8'h54;
+	VGA_G = 8'h8F;
+	VGA_B = 8'h47;
+end
+16'd59:
+begin
+	VGA_R = 8'h57;
+	VGA_G = 8'h9E;
+	VGA_B = 8'h52;
+end
+16'd60:
+begin
+	VGA_R = 8'h87;
+	VGA_G = 8'hB6;
+	VGA_B = 8'h7F;
+end
+16'd61:
+begin
+	VGA_R = 8'h74;
+	VGA_G = 8'hB5;
+	VGA_B = 8'h65;
+end
+16'd62:
+begin
+	VGA_R = 8'h7C;
+	VGA_G = 8'hBA;
+	VGA_B = 8'h77;
+end
+16'd63:
+begin
+	VGA_R = 8'h95;
+	VGA_G = 8'hD8;
+	VGA_B = 8'h91;
+end
+16'd64:
+begin
+	VGA_R = 8'h2F;
+	VGA_G = 8'h4A;
+	VGA_B = 8'h35;
+end
+16'd65:
+begin
+	VGA_R = 8'h60;
+	VGA_G = 8'h95;
+	VGA_B = 8'h68;
+end
+16'd66:
+begin
+	VGA_R = 8'h5E;
+	VGA_G = 8'h95;
+	VGA_B = 8'h67;
+end
+16'd67:
+begin
+	VGA_R = 8'h4F;
+	VGA_G = 8'h97;
+	VGA_B = 8'h56;
+end
+16'd68:
+begin
+	VGA_R = 8'h56;
+	VGA_G = 8'hA4;
+	VGA_B = 8'h60;
+end
+16'd69:
+begin
+	VGA_R = 8'h49;
+	VGA_G = 8'hB8;
+	VGA_B = 8'h55;
+end
+16'd70:
+begin
+	VGA_R = 8'h2B;
+	VGA_G = 8'h7A;
+	VGA_B = 8'h48;
+end
+16'd71:
+begin
+	VGA_R = 8'h24;
+	VGA_G = 8'h74;
+	VGA_B = 8'h4C;
+end
+16'd72:
+begin
+	VGA_R = 8'h1B;
+	VGA_G = 8'h67;
+	VGA_B = 8'h43;
+end
+16'd73:
+begin
+	VGA_R = 8'h0D;
+	VGA_G = 8'h51;
+	VGA_B = 8'h31;
+end
+16'd74:
+begin
+	VGA_R = 8'hAB;
+	VGA_G = 8'hD0;
+	VGA_B = 8'hBD;
+end
+16'd75:
+begin
+	VGA_R = 8'hB1;
+	VGA_G = 8'hBF;
+	VGA_B = 8'hC3;
+end
+16'd76:
+begin
+	VGA_R = 8'h2B;
+	VGA_G = 8'h87;
+	VGA_B = 8'hAB;
+end
+16'd77:
+begin
+	VGA_R = 8'h3B;
+	VGA_G = 8'h9F;
+	VGA_B = 8'hC6;
+end
+16'd78:
+begin
+	VGA_R = 8'h23;
+	VGA_G = 8'h86;
+	VGA_B = 8'hB1;
+end
+16'd79:
+begin
+	VGA_R = 8'h56;
+	VGA_G = 8'hAF;
+	VGA_B = 8'hD1;
+end
+16'd80:
+begin
+	VGA_R = 8'h9A;
+	VGA_G = 8'hCE;
+	VGA_B = 8'hEF;
+end
+16'd81:
+begin
+	VGA_R = 8'hD1;
+	VGA_G = 8'hE8;
+	VGA_B = 8'hF9;
+end
+16'd82:
+begin
+	VGA_R = 8'h88;
+	VGA_G = 8'hB5;
+	VGA_B = 8'hF9;
+end
+16'd83:
+begin
+	VGA_R = 8'h99;
+	VGA_G = 8'h6C;
+	VGA_B = 8'hAA;
+end
+16'd84:
+begin
+	VGA_R = 8'hDD;
+	VGA_G = 8'hC8;
+	VGA_B = 8'hDB;
+end
+16'd85:
+begin
+	VGA_R = 8'hF7;
+	VGA_G = 8'h97;
+	VGA_B = 8'hE3;
+end
+16'd86:
+begin
+	VGA_R = 8'hFA;
+	VGA_G = 8'h87;
+	VGA_B = 8'hE9;
+end
+16'd87:
+begin
+	VGA_R = 8'hDB;
+	VGA_G = 8'h90;
+	VGA_B = 8'hB1;
+end
+16'd88:
+begin
+	VGA_R = 8'hE5;
+	VGA_G = 8'h73;
+	VGA_B = 8'hA6;
+end
+16'd89:
+begin
+	VGA_R = 8'hF5;
+	VGA_G = 8'hA9;
+	VGA_B = 8'hD1;
+end
+16'd90:
+begin
+	VGA_R = 8'hC2;
+	VGA_G = 8'h58;
+	VGA_B = 8'h63;
+end
+16'd91:
+begin
+	VGA_R = 8'hFF;
+	VGA_G = 8'hFF;
+	VGA_B = 8'hFF;
+end
+default:
+begin
+	VGA_R = 8'h7F;
+	VGA_G = 8'h7F;
+	VGA_B = 8'h7F;
+end

@@ -1,0 +1,14 @@
+
+
+module frame_drawer(input logic CLK, 
+							input logic ENABLE,
+							input logic DRAW_READY,
+							output logic [19:0] WRITEADDR,
+							output logic [15:0] DATA,
+							);
+							
+enum logic [3:0] {
+	Await,
+	Background,
+	Player
+}

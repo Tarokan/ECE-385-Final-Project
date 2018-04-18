@@ -1,0 +1,167 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do lab8_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:11 on Dec 11,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v 
+# -- Compiling module sram_ctrl
+# 
+# Top level modules:
+# 	sram_ctrl
+# End time: 20:58:11 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib nios_system
+# ** Warning: (vlib-34) Library already exists at "nios_system".
+# 
+# vmap nios_system nios_system
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet nios_system nios_system 
+# Modifying modelsim.ini
+# vlog -sv -work nios_system +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/nios_system/synthesis/submodules {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/nios_system/synthesis/submodules/avalon_interface.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:11 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/nios_system/synthesis/submodules" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/nios_system/synthesis/submodules/avalon_interface.sv 
+# -- Compiling module avalon_interface
+# 
+# Top level modules:
+# 	avalon_interface
+# End time: 20:58:11 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:11 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv 
+# -- Compiling module VGA_controller
+# 
+# Top level modules:
+# 	VGA_controller
+# End time: 20:58:11 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:11 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv 
+# -- Compiling module frame_drawer
+# -- Compiling module letter_mapper
+# 
+# Top level modules:
+# 	frame_drawer
+# 	letter_mapper
+# End time: 20:58:11 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:11 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv 
+# -- Compiling module frameRAM
+# -- Compiling module mapRAM
+# -- Compiling module playerRAM
+# -- Compiling module fontRAM
+# -- Compiling module pokemonRAM
+# -- Compiling module HPBarsRAM
+# 
+# Top level modules:
+# 	frameRAM
+# 	mapRAM
+# 	playerRAM
+# 	fontRAM
+# 	pokemonRAM
+# 	HPBarsRAM
+# End time: 20:58:12 on Dec 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:12 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv 
+# -- Compiling module testsystem
+# 
+# Top level modules:
+# 	testsystem
+# End time: 20:58:12 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:12 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv 
+# -- Compiling module battle_drawer
+# 
+# Top level modules:
+# 	battle_drawer
+# End time: 20:58:12 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject {C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:58:12 on Dec 11,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject" C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv 
+# -- Compiling module testsystem_testbench
+# 
+# Top level modules:
+# 	testsystem_testbench
+# End time: 20:58:12 on Dec 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nios_system -voptargs="+acc"  testsystem_testbench
+# vsim -gui "+altera" -l msim_transcript -do "lab8_run_msim_rtl_systemverilog.do" 
+# Start time: 20:58:12 on Dec 11,2017
+# Loading sv_std.std
+# Loading work.testsystem_testbench
+# Loading work.testsystem
+# Loading work.sram_ctrl
+# Loading work.VGA_controller
+# Loading work.frame_drawer
+# Loading work.frameRAM
+# Loading work.mapRAM
+# Loading work.playerRAM
+# Loading work.fontRAM
+# Loading work.battle_drawer
+# Loading work.pokemonRAM
+# Loading work.HPBarsRAM
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv(102): [PCDPC] - Port size (6) does not match connection size (1) for port 'UI_ENABLE'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(8).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv(102): [PCDPC] - Port size (8) does not match connection size (1) for port 'ocm_data_out'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(15).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(59): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(10).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance/frameRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(66): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(35).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance/mapRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(73): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(60).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance/playerRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv(80): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(85).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/frame_drawer_instance/fontRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv(119): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(85).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/battle_drawer_instance/fontRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv(126): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(111).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/battle_drawer_instance/pokemonRAM_instance
+# ** Warning: (vsim-3015) C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv(133): [PCDPC] - Port size (19) does not match connection size (6) for port 'write_address'. The port definition is at: C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv(136).
+# 
+#         Region: /testsystem_testbench/testsystem_instance/battle_drawer_instance/HPBarsRAM_instance
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+run 2500us

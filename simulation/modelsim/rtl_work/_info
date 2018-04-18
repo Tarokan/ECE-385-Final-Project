@@ -1,0 +1,326 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/simulation/modelsim
+vbattle_drawer
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1513047492
+!i10b 1
+!s100 nz:olh;aGPG7RdGW;ki1>3
+Ii@=`Qe^;SRPgmC3_N`>E51
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 battle_drawer_sv_unit
+S1
+R0
+w1513047165
+8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv
+FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv
+L0 2
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1513047492.303000
+!s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/battle_drawer.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject
+vfontRAM
+R1
+R2
+!i10b 1
+!s100 fzQ9C[4QN<6:Ueimh0YQn3
+IMcGjka?M3A7UM?>2z2Hk20
+R3
+Z7 !s105 ram_sv_unit
+S1
+R0
+Z8 w1513043978
+Z9 8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv
+Z10 FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv
+L0 82
+R4
+r1
+!s85 0
+31
+Z11 !s108 1513047491.986000
+Z12 !s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv|
+Z13 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/ram.sv|
+!i113 1
+R5
+R6
+nfont@r@a@m
+vframe_drawer
+R1
+Z14 !s110 1513047491
+!i10b 1
+!s100 kYZ`I>gFb`DLIXb63HNKn0
+IRQ9:1Q9^H1ikI7gbW6l>o0
+R3
+Z15 !s105 frame_drawer_sv_unit
+S1
+R0
+Z16 w1512940602
+Z17 8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv
+Z18 FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv
+L0 2
+R4
+r1
+!s85 0
+31
+Z19 !s108 1513047491.839000
+Z20 !s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv|
+Z21 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/frame_drawer.sv|
+!i113 1
+R5
+R6
+vframeRAM
+R1
+R2
+!i10b 1
+!s100 k;SX5YJ5UE^6?YET0a9T<3
+Iz_dKhnigBHZdQDlZIgG<@0
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 7
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+nframe@r@a@m
+vHPBarsRAM
+R1
+R2
+!i10b 1
+!s100 MY?I=544T6oA=@PcnP_c90
+Izgi7PzHQB^@zQJGn2WD071
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 133
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+n@h@p@bars@r@a@m
+vletter_mapper
+R1
+R14
+!i10b 1
+!s100 RVLW16GC43^_`Z5Mbb2eK1
+I>3JD^?^_<Yj?Z5hMmFW8M0
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 335
+R4
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R5
+R6
+vmapRAM
+R1
+R2
+!i10b 1
+!s100 0KaCkd_k?fB26OeTbRDIm0
+I>jd4c4Q0cm>V?Z47`K]zE1
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 32
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+nmap@r@a@m
+vplayerRAM
+R1
+R2
+!i10b 1
+!s100 >2dPc_3coc^R]O44J7eJZ2
+IdXWAjEFU1M1<ccVjRNQEf3
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 57
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+nplayer@r@a@m
+vpokemonRAM
+R1
+R2
+!i10b 1
+!s100 iRVWfNQ;I:K7g>kill4N53
+Ia0@C5J]LkVfRiNW>WQWV02
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 108
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R5
+R6
+npokemon@r@a@m
+vsram_ctrl
+R14
+!i10b 1
+!s100 <@eLjd7?GHmTj9BFRBA=I0
+Ih[G_W<6X4P2TQ;14iN^a^1
+R3
+R0
+w1511841782
+8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v
+FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v
+L0 25
+R4
+r1
+!s85 0
+31
+!s108 1513047491.100000
+!s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/sram2.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject
+vtestsystem
+R1
+R2
+!i10b 1
+!s100 LQJ5f5MIlLiO5n>^mT5CV1
+IzeFYk=FW6B>^Co1kKA9PM0
+R3
+!s105 testsystem_sv_unit
+S1
+R0
+w1513044366
+8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv
+FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1513047492.102000
+!s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem.sv|
+!i113 1
+R5
+R6
+vtestsystem_testbench
+R1
+R2
+!i10b 1
+!s100 Ee6D5Q7M6iazeZ=Fz[7=H1
+IK8]Ti?KBIhUROBZ]0CKNB1
+R3
+!s105 testsystem_testbench_sv_unit
+S1
+R0
+w1513045575
+8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv
+FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1513047492.419000
+!s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/testsystem_testbench.sv|
+!i113 1
+R5
+R6
+vVGA_controller
+R1
+R14
+!i10b 1
+!s100 6P]YhaehDoZk8VIUe8Fc@0
+I>f1kJ8O2VJcTYMaY=JYfG1
+R3
+!s105 VGA_controller_sv_unit
+S1
+R0
+w1512856419
+8C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv
+FC:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv
+L0 26
+R4
+r1
+!s85 0
+31
+!s108 1513047491.739000
+!s107 C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject|C:/Users/leung/OneDrive/Documents/ECE_385/Final/finalproject/VGA_controller.sv|
+!i113 1
+R5
+R6
+n@v@g@a_controller

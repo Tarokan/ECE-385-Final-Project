@@ -1,0 +1,466 @@
+//-------------------------------------------------------------------------
+//    Color_Mapper.sv                                                    --
+//    Stephen Kempf                                                      --
+//    3-1-06                                                             --
+//                                                                       --
+//    Modified by David Kesler  07-16-2008                               --
+//    Translated by Joe Meng    07-07-2013                               --
+//    Modified by Po-Han Huang  10-06-2017                               --
+//                                                                       --
+//    Fall 2017 Distribution                                             --
+//                                                                       --
+//    For use with ECE 385 Lab 8                                         --
+//    University of Illinois ECE Department                              --
+//-------------------------------------------------------------------------
+
+// color_mapper: Decide which color to be output to VGA for each pixel.
+module  color_mapper  (input  [15:0]  Color_Enum,
+                       output logic [7:0] VGA_R, VGA_G, VGA_B
+                      );
+
+    logic [7:0] Red, Green, Blue;
+
+    // Output colors to VGA
+    assign VGA_R = Red;
+    assign VGA_G = Green;
+    assign VGA_B = Blue;
+
+    always_comb
+    begin
+      case(SRAM_DQ)
+		16'd0:
+		begin
+			VGA_B = 8'hF0;
+			VGA_G = 8'h00;
+			VGA_R = 8'hFF;
+		end
+		16'd1:
+		begin
+			VGA_B = 8'hF9;
+			VGA_G = 8'hD8;
+			VGA_R = 8'hDF;
+		end
+		16'd2:
+		begin
+			VGA_B = 8'hF0;
+			VGA_G = 8'hF2;
+			VGA_R = 8'hF1;
+		end
+		16'd3:
+		begin
+			VGA_B = 8'hA6;
+			VGA_G = 8'h9D;
+			VGA_R = 8'h94;
+		end
+		16'd4:
+		begin
+			VGA_B = 8'hA0;
+			VGA_G = 8'h9B;
+			VGA_R = 8'h92;
+		end
+		16'd5:
+		begin
+			VGA_B = 8'h81;
+			VGA_G = 8'h86;
+			VGA_R = 8'h70;
+		end
+		16'd6:
+		begin
+			VGA_B = 8'h82;
+			VGA_G = 8'h8D;
+			VGA_R = 8'h75;
+		end
+		16'd7:
+		begin
+			VGA_B = 8'h81;
+			VGA_G = 8'h48;
+			VGA_R = 8'h45;
+		end
+		16'd8:
+		begin
+			VGA_B = 8'h67;
+			VGA_G = 8'h54;
+			VGA_R = 8'h49;
+		end
+		16'd9:
+		begin
+			VGA_B = 8'hFD;
+			VGA_G = 8'hD1;
+			VGA_R = 8'hC1;
+		end
+		16'd10:
+		begin
+			VGA_B = 8'h7D;
+			VGA_G = 8'h5D;
+			VGA_R = 8'h42;
+		end
+		16'd11:
+		begin
+			VGA_B = 8'h6C;
+			VGA_G = 8'h4B;
+			VGA_R = 8'h2B;
+		end
+		16'd12:
+		begin
+			VGA_B = 8'h9F;
+			VGA_G = 8'h74;
+			VGA_R = 8'h37;
+		end
+		16'd13:
+		begin
+			VGA_B = 8'h8C;
+			VGA_G = 8'h5E;
+			VGA_R = 8'h28;
+		end
+		16'd14:
+		begin
+			VGA_B = 8'hBA;
+			VGA_G = 8'h90;
+			VGA_R = 8'h71;
+		end
+		16'd15:
+		begin
+			VGA_B = 8'hE2;
+			VGA_G = 8'hDF;
+			VGA_R = 8'hDB;
+		end
+		16'd16:
+		begin
+			VGA_B = 8'hC3;
+			VGA_G = 8'h90;
+			VGA_R = 8'h4E;
+		end
+		16'd17:
+		begin
+			VGA_B = 8'hE7;
+			VGA_G = 8'hA8;
+			VGA_R = 8'h6D;
+		end
+		16'd18:
+		begin
+			VGA_B = 8'hCE;
+			VGA_G = 8'h73;
+			VGA_R = 8'h00;
+		end
+		16'd19:
+		begin
+			VGA_B = 8'h6B;
+			VGA_G = 8'h5E;
+			VGA_R = 8'h3D;
+		end
+		16'd20:
+		begin
+			VGA_B = 8'hA4;
+			VGA_G = 8'h87;
+			VGA_R = 8'h3D;
+		end
+		16'd21:
+		begin
+			VGA_B = 8'h96;
+			VGA_G = 8'h5D;
+			VGA_R = 8'h05;
+		end
+		16'd22:
+		begin
+			VGA_B = 8'hFB;
+			VGA_G = 8'hC0;
+			VGA_R = 8'h11;
+		end
+		16'd23:
+		begin
+			VGA_B = 8'hF1;
+			VGA_G = 8'hDB;
+			VGA_R = 8'hB1;
+		end
+		16'd24:
+		begin
+			VGA_B = 8'h70;
+			VGA_G = 8'h6E;
+			VGA_R = 8'h57;
+		end
+		16'd25:
+		begin
+			VGA_B = 8'h89;
+			VGA_G = 8'h88;
+			VGA_R = 8'h52;
+		end
+		16'd26:
+		begin
+			VGA_B = 8'h8E;
+			VGA_G = 8'h8A;
+			VGA_R = 8'h53;
+		end
+		16'd27:
+		begin
+			VGA_B = 8'h9E;
+			VGA_G = 8'h9C;
+			VGA_R = 8'h7B;
+		end
+		16'd28:
+		begin
+			VGA_B = 8'h83;
+			VGA_G = 8'h77;
+			VGA_R = 8'h2E;
+		end
+		16'd29:
+		begin
+			VGA_B = 8'h8B;
+			VGA_G = 8'h82;
+			VGA_R = 8'h28;
+		end
+		16'd30:
+		begin
+			VGA_B = 8'hF3;
+			VGA_G = 8'hD7;
+			VGA_R = 8'h7B;
+		end
+		16'd31:
+		begin
+			VGA_B = 8'hEC;
+			VGA_G = 8'hE9;
+			VGA_R = 8'h80;
+		end
+		16'd32:
+		begin
+			VGA_B = 8'h2C;
+			VGA_G = 8'h2E;
+			VGA_R = 8'h11;
+		end
+		16'd33:
+		begin
+			VGA_B = 8'h42;
+			VGA_G = 8'h47;
+			VGA_R = 8'h2A;
+		end
+		16'd34:
+		begin
+			VGA_B = 8'hA4;
+			VGA_G = 8'hA7;
+			VGA_R = 8'h38;
+		end
+		16'd35:
+		begin
+			VGA_B = 8'h91;
+			VGA_G = 8'hC3;
+			VGA_R = 8'h66;
+		end
+		16'd36:
+		begin
+			VGA_B = 8'hAB;
+			VGA_G = 8'hD8;
+			VGA_R = 8'h82;
+		end
+		16'd37:
+		begin
+			VGA_B = 8'hBD;
+			VGA_G = 8'hED;
+			VGA_R = 8'h94;
+		end
+		16'd38:
+		begin
+			VGA_B = 8'h50;
+			VGA_G = 8'h82;
+			VGA_R = 8'h41;
+		end
+		16'd39:
+		begin
+			VGA_B = 8'hAD;
+			VGA_G = 8'hBD;
+			VGA_R = 8'hA4;
+		end
+		16'd40:
+		begin
+			VGA_B = 8'h87;
+			VGA_G = 8'hC5;
+			VGA_R = 8'h62;
+		end
+		16'd41:
+		begin
+			VGA_B = 8'h99;
+			VGA_G = 8'hDC;
+			VGA_R = 8'h83;
+		end
+		16'd42:
+		begin
+			VGA_B = 8'hD3;
+			VGA_G = 8'hF6;
+			VGA_R = 8'hC3;
+		end
+		16'd43:
+		begin
+			VGA_B = 8'h6B;
+			VGA_G = 8'hA0;
+			VGA_R = 8'h69;
+		end
+		16'd44:
+		begin
+			VGA_B = 8'h5B;
+			VGA_G = 8'hB1;
+			VGA_R = 8'h48;
+		end
+		16'd45:
+		begin
+			VGA_B = 8'h88;
+			VGA_G = 8'hCA;
+			VGA_R = 8'h84;
+		end
+		16'd46:
+		begin
+			VGA_B = 8'h91;
+			VGA_G = 8'hD2;
+			VGA_R = 8'h88;
+		end
+		16'd47:
+		begin
+			VGA_B = 8'h2E;
+			VGA_G = 8'h49;
+			VGA_R = 8'h34;
+		end
+		16'd48:
+		begin
+			VGA_B = 8'h5E;
+			VGA_G = 8'h95;
+			VGA_R = 8'h67;
+		end
+		16'd49:
+		begin
+			VGA_B = 8'h3A;
+			VGA_G = 8'h86;
+			VGA_R = 8'h45;
+		end
+		16'd50:
+		begin
+			VGA_B = 8'h0D;
+			VGA_G = 8'h51;
+			VGA_R = 8'h31;
+		end
+		16'd51:
+		begin
+			VGA_B = 8'hAB;
+			VGA_G = 8'hE3;
+			VGA_R = 8'hC8;
+		end
+		16'd52:
+		begin
+			VGA_B = 8'h6B;
+			VGA_G = 8'hB1;
+			VGA_R = 8'hB1;
+		end
+		16'd53:
+		begin
+			VGA_B = 8'h2B;
+			VGA_G = 8'h87;
+			VGA_R = 8'hAB;
+		end
+		16'd54:
+		begin
+			VGA_B = 8'h85;
+			VGA_G = 8'hB8;
+			VGA_R = 8'hCB;
+		end
+		16'd55:
+		begin
+			VGA_B = 8'h7A;
+			VGA_G = 8'hB7;
+			VGA_R = 8'hD5;
+		end
+		16'd56:
+		begin
+			VGA_B = 8'h86;
+			VGA_G = 8'hC4;
+			VGA_R = 8'hE0;
+		end
+		16'd57:
+		begin
+			VGA_B = 8'h1F;
+			VGA_G = 8'h6B;
+			VGA_R = 8'hB5;
+		end
+		16'd58:
+		begin
+			VGA_B = 8'h94;
+			VGA_G = 8'hCC;
+			VGA_R = 8'hE5;
+		end
+		16'd59:
+		begin
+			VGA_B = 8'h6B;
+			VGA_G = 8'h79;
+			VGA_R = 8'h8F;
+		end
+		16'd60:
+		begin
+			VGA_B = 8'h88;
+			VGA_G = 8'hB5;
+			VGA_R = 8'hF9;
+		end
+		16'd61:
+		begin
+			VGA_B = 8'h59;
+			VGA_G = 8'h57;
+			VGA_R = 8'h86;
+		end
+		16'd62:
+		begin
+			VGA_B = 8'h5C;
+			VGA_G = 8'h48;
+			VGA_R = 8'h75;
+		end
+		16'd63:
+		begin
+			VGA_B = 8'h79;
+			VGA_G = 8'h58;
+			VGA_R = 8'hC2;
+		end
+		16'd64:
+		begin
+			VGA_B = 8'hD7;
+			VGA_G = 8'hB7;
+			VGA_R = 8'hFF;
+		end
+		16'd65:
+		begin
+			VGA_B = 8'h99;
+			VGA_G = 8'h6C;
+			VGA_R = 8'hAA;
+		end
+		16'd66:
+		begin
+			VGA_B = 8'hF7;
+			VGA_G = 8'h97;
+			VGA_R = 8'hE3;
+		end
+		16'd67:
+		begin
+			VGA_B = 8'hFA;
+			VGA_G = 8'h87;
+			VGA_R = 8'hE9;
+		end
+		16'd68:
+		begin
+			VGA_B = 8'h9B;
+			VGA_G = 8'h67;
+			VGA_R = 8'h85;
+		end
+		16'd69:
+		begin
+			VGA_B = 8'hDB;
+			VGA_G = 8'h90;
+			VGA_R = 8'hB1;
+		end
+		16'd70:
+		begin
+			VGA_B = 8'hC2;
+			VGA_G = 8'h58;
+			VGA_R = 8'h63;
+		end
+		16'd71:
+		begin
+			VGA_B = 8'hFA;
+			VGA_G = 8'hCE;
+			VGA_R = 8'hD2;
+		end
+      endcase
+    end
+
+endmodule
